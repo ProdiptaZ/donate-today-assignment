@@ -4,15 +4,20 @@ body {
     margin: 0px;
 }
 
-.hero-text {
+.hero-content {
     color: white;
     text-align: center;
 }
 
-.hero-text h1 {
+.hero-content h1 {
     font-size: 50px;
     font-weight: bolder;
     margin: 20px;
+}
+
+.hero-content p {
+    font-weight: 400;
+    margin-bottom: 30px;
 }
 
 .hero-section {
@@ -24,4 +29,12 @@ body {
     align-items: center;
     display: flex;
 
+}
+
+.button-configure {
+    color: white;
+    background-color: darkorange;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: 600;
 }
