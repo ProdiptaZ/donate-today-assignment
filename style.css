@@ -31,7 +31,7 @@ body {
 
 }
 
-a {
+.button {
     color: white;
     background-color: darkorange;
     padding: 15px 25px;
@@ -51,13 +51,14 @@ a {
 .donate-section h1 {
     font-weight: bolder;
     font-size: 100px;
+    margin-bottom: 0px;
 
 }
 
 .donate-section p {
     font-weight: 400;
     font-size: large;
-    margin-bottom: 30px;
+    margin-bottom: 100px;
 }
 
 .donation-box {
@@ -98,4 +99,34 @@ a {
     margin: 30px;
     color: gray;
 
+}
+
+.donate-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.donate-items {
+    width: 300px;
+    height: fit-content;
+    margin: 10px;
+    padding: 20px 20px;
+}
+
+.donate-items p {
+    margin-bottom: 10px;
+}
+
+.donate-items img {
+    margin-bottom: 15px;
+}
+
+.color-blue {
+    background-color: skyblue;
+}
+
+.color-pink {
+    background-color: pink;
 }
