@@ -10,14 +10,14 @@ body {
 }
 
 .hero-content h1 {
-    font-size: 50px;
+    font-size: 100px;
     font-weight: bolder;
     margin: 20px;
 }
 
 .hero-content p {
-    font-weight: 400;
-    margin-bottom: 30px;
+    font-weight: 600;
+    margin-bottom: 60px;
 }
 
 .hero-section {
@@ -37,4 +37,18 @@ body {
     padding: 15px 25px;
     text-decoration: none;
     font-weight: 600;
+}
+
+.donate-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.donate-section h1 {
+    font-weight: bolder;
+    font-size: 100px;
+
 }
