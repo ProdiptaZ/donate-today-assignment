@@ -130,3 +130,28 @@ body {
 .color-pink {
     background-color: pink;
 }
+
+.gallary {
+    margin: 20px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallary img {
+    width: 60%;
+    height: auto;
+}
+
+.gallary h1 {
+    font-weight: 500;
+    font-size: 50px;
+    margin-bottom: 0px;
+
+}
+
+.gallary p {
+    font-weight: 400;
+    font-size: large;
+    margin-bottom: 100px;
+}
