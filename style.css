@@ -6,6 +6,10 @@ body {
     margin: 0;
 }
 
+.section-top {
+    margin: 50px;
+}
+
 .hero-image {
     background-image: url(images/donation13.jpg);
     height: 100vh;
@@ -79,12 +83,43 @@ a {
 }
 
 .custom-box input {
-    width: 100%;
+    width: 40%;
     height: 30px;
     border: none;
-    border-bottom: 2px solid gray;
+    border-bottom: 1px solid gray;
     text-align: center;
     padding: 5px;
     color: gray;
     margin: 30px 0 30px 0;
+}
+
+.donation-plan {
+    display: flex;
+    justify-content: center;
+
+}
+
+.donation-plan h3 {
+    font-size: 30px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.plan-box {
+    width: 400px;
+    background-color: whitesmoke;
+    margin: 10px;
+    padding: 30px;
+}
+
+.blue-color {
+    background-color: cadetblue;
+}
+
+.pink-color {
+    background-color: pink;
+}
+
+.bisque-color {
+    background-color: bisque;
 }
