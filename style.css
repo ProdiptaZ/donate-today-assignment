@@ -70,7 +70,7 @@ body {
     border-radius: 10px;
     font-weight: 700;
     font-size: 30px;
-    color: lightgray;
+    color: black;
     background-color: whitesmoke;
 
 }
@@ -110,7 +110,7 @@ body {
 
 .donate-items {
     width: 300px;
-    height: fit-content;
+    height: 300px;
     margin: 10px;
     padding: 20px 20px;
 }
@@ -131,15 +131,19 @@ body {
     background-color: pink;
 }
 
+.display {
+    display: flex;
+    justify-content: center;
+}
+
 .gallary {
     margin: 20px;
     padding: 20px;
-    display: flex;
 
 }
 
 .gallary img {
-    width: 60%;
+    width: 80%;
     height: auto;
 }
 
