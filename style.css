@@ -1,161 +1,41 @@
 body {
-    font-family: 'Montserrat', sans-serif;
-    font-family: 'Poppins', sans-serif;
-    margin: 0px;
+    font-family: 'Raleway', sans-serif;
 }
 
-.hero-content {
-    color: white;
-    text-align: center;
-}
-
-.hero-content h1 {
-    font-size: 100px;
-    font-weight: bolder;
-    margin: 20px;
-}
-
-.hero-content p {
-    font-weight: 600;
-    margin-bottom: 60px;
-}
-
-.hero-section {
+.hero-image {
     background-image: url(images/donation13.jpg);
-    background-repeat: no-repeat;
     height: 100vh;
     background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
     justify-content: center;
     align-items: center;
-    display: flex;
-
 }
 
-.button {
+.hero-text {
     color: white;
-    background-color: darkorange;
-    padding: 15px 25px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 80px;
+    margin: 40px;
+}
+
+p {
+    font-weight: 400;
+    font-size: 25px;
+    margin-bottom: 40px;
+}
+
+a {
+    color: white;
+    font-size: 30px;
     text-decoration: none;
-    font-weight: 600;
-    border-radius: 10px;
-    letter-spacing: 1px;
-}
-
-.donate-section {
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-
-}
-
-.donate-section h1 {
-    font-weight: bolder;
-    font-size: 100px;
-    margin-bottom: 0px;
-
-}
-
-.donate-section p {
     font-weight: 400;
-    font-size: large;
-    margin-bottom: 100px;
-}
+    background-color: coral;
+    border-radius: 5px;
+    padding: 15px;
 
-.donation-box {
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin: 10px;
-    line-height: 150px;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 30px;
-    color: black;
-    background-color: whitesmoke;
-
-}
-
-.special-box {
-    height: 150px;
-    width: 150px;
-    display: inline-block;
-    margin: 10px;
-    line-height: 150px;
-    border-radius: 10px;
-    font-weight: 700;
-    font-size: 30px;
-    color: gray;
-    background-color: whitesmoke;
-    border: 4px solid rebeccapurple;
-}
-
-.custom-donate input {
-    height: 20px;
-    width: 50%;
-    border: none;
-    border-bottom: 3px solid gray;
-    text-align: center;
-    padding: 5px;
-    margin: 30px;
-    color: gray;
-
-}
-
-.donate-plan {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
-}
-
-.donate-items {
-    width: 300px;
-    height: 300px;
-    margin: 10px;
-    padding: 20px 20px;
-}
-
-.donate-items p {
-    margin-bottom: 10px;
-}
-
-.donate-items img {
-    margin-bottom: 15px;
-}
-
-.color-blue {
-    background-color: skyblue;
-}
-
-.color-pink {
-    background-color: pink;
-}
-
-.display {
-    display: flex;
-    justify-content: center;
-}
-
-.gallary {
-    margin: 20px;
-    padding: 20px;
-
-}
-
-.gallary img {
-    width: 80%;
-    height: auto;
-}
-
-.gallary h1 {
-    font-weight: 500;
-    font-size: 50px;
-    margin-bottom: 0px;
-
-}
-
-.gallary p {
-    font-weight: 400;
-    font-size: large;
-    margin-bottom: 100px;
 }
