@@ -175,3 +175,16 @@ h2 {
     background-color: red;
     color: white;
 }
+
+footer {
+    background-color: black;
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+footer h1 {
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    line-height: 25px;
+}
