@@ -7,7 +7,8 @@ body {
 }
 
 .section-top {
-    margin: 50px;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 .hero-image {
@@ -34,7 +35,7 @@ h1 {
 p {
     font-weight: 400;
     font-size: 25px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
 }
 
 a {
@@ -122,4 +123,55 @@ a {
 
 .bisque-color {
     background-color: bisque;
+}
+
+.gallary {
+    display: flex;
+    text-align: justify;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+
+h2 {
+    font-size: 60px;
+    margin-bottom: 50px;
+}
+
+.half-width {
+    width: 50%;
+    padding: 30px;
+}
+
+.half-width img {
+    width: 100%;
+}
+
+.subscription {
+    height: 150px;
+    width: 700px;
+    background-color: lightpink;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 10px;
+}
+
+.email-input {
+    width: 250px;
+    height: 30px;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+
+}
+
+.subscribe-button {
+    border: none;
+    height: 40px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: red;
+    color: white;
 }
